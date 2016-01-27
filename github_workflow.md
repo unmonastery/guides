@@ -23,3 +23,20 @@ git clone https://github.com/unmonastery/guides
 
 open this file in the directory
 
+make changes
+
+git status
+
+git add .
+
+
+git commit -am 'Commit messages'
+
+git remote -v
+
+origin	https://github.com/unmonastery/guides (fetch)
+origin	https://github.com/unmonastery/guides (push)
+
+git push origin master
+
+[call git program] [save to online version of files] [save to "origin" of online files] [which branch]
