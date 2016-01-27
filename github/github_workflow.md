@@ -62,7 +62,7 @@ At certain steps in the process, this guide assumes a basic familarity with Gith
 
 	When you commit a file in Git, it's useful to include a descriptive message of the changes you've made, e.g. 'Updated intro text'. This will be visible to other users of the repository and help collaboration.
 
-9. You've now saved the files on your computer by committing them, which saves a unique log point in their progress. (If you're familiar with using the Revision History function of Google Docs, you can think of this save point as being able to *choose* when specific versions of the file is logged and thus able to be restored.) 
+9. You've now saved the files on your computer by committing them, which saves a unique log point in their progress. (If you're familiar with using the Revision History function of Google Docs, you can think of this save point as being able to *choose* when specific versions of the file are logged and thus able to be restored.) 
 
 #### Saving files online in the collaborative Git repository
 
@@ -80,4 +80,3 @@ At certain steps in the process, this guide assumes a basic familarity with Gith
 *  Explain branches
 *  Collaboration best practices
 *  Explain remote respositories (origin, target)
-*  Techniques for merging and reverting
