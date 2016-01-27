@@ -21,20 +21,19 @@ This document aims to provide an easy to follow workflow for uploading documents
 
 1. If using a UNIX-based operating system (Mac or Linux) open the [Terminal](link) application. Enter this line of text:
 
-git clone https://github.com/unmonastery/guides
+    git clone https://github.com/unmonastery/guides
 
 open this file in the directory
 
 make changes
 
-git status
+    git status
 
-git add .
+    git add .
 
+    git commit -am 'Commit messages'
 
-git commit -am 'Commit messages'
-
-git remote -v
+    git remote -v
 
 origin	https://github.com/unmonastery/guides (fetch)
 origin	https://github.com/unmonastery/guides (push)
