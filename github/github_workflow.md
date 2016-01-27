@@ -8,7 +8,7 @@ At certain steps in the process, this guide assumes a basic familarity with Gith
 
 1. Install Github software on your computer. Tutorial [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-#### 0. This guide uses this repository as a workspace for editing. Alternatively, if you already know what project repository (which is like the equivalent of a folder on your ownCloud or Google Drive) you'd like to work from, begin here. If not, please continue on to the next header section.
+##### This guide uses this repository as a workspace for editing. Alternatively, if you already have a project repository (which is like the equivalent of a folder on your ownCloud or Google Drive), begin here. If not, please continue on to the next header section.
 
 1. Log into Github.com and click on the + icon in the upper right corner to create a new repository.
 
@@ -32,13 +32,13 @@ At certain steps in the process, this guide assumes a basic familarity with Gith
 
     `cd development`
 
-	*This line brings you to the the 'development' folder in Terminal. It is the text-based equivalent of clicking on the development folder and then having access to all of the files the folder contains.*
+	This line brings you to the the 'development' folder in Terminal. It is the text-based equivalent of clicking on the development folder and then having access to all of the files the folder contains.
 
 3. In Terminal, enter this line of text:
 
     `git clone https://github.com/unmonastery/guides`
 
-	*This copies the existing files in the online Git repository to your development folder, in its own folder called 'guides'. You now have access to the files [locally](http://www.webopedia.com/TERM/L/local.html).*
+	This copies the existing files in the online Git repository to your development folder, in its own folder called 'guides'. You now have access to the files [locally](http://www.webopedia.com/TERM/L/local.html).
 
 #### Editing and saving files locally
 
@@ -48,19 +48,19 @@ At certain steps in the process, this guide assumes a basic familarity with Gith
 
 6. Return to the Terminal application, and enter this line:
 
-    git status
+    `git status`
 
-	*Terminal will likely return a message that reads something like `modified:   github_workflow.md`. In Git terminology, this means changes are ready to be staged for a commit. As a rough analogy, you can think of what happens when you choose 'Save As' to overwrite a text file. The prompt asking 'Are you sure you want to do this?' is similar to staging a file in Git, and clicking 'Yes' is analogous to commiting a file.*
+	Terminal will likely return a message that reads something like `modified:   github_workflow.md`. In Git terminology, this means changes are ready to be staged for a commit. As a rough analogy, you can think of what happens when you choose 'Save As' to overwrite a text file. The prompt asking 'Are you sure you want to do this?' is similar to staging a file in Git, and clicking 'Yes' is analogous to commiting a file.
 
 7. To stage all files, enter:
  
-    git add .
+    `git add .`
 
 8. To commit all staged files:
 
     `git commit -am 'Commit message here'`
 
-	*When you commit a file in Git, it's useful to include a descriptive message of the changes you've made, e.g. 'Updated intro text'. This will be visible to other users of the repository and help collaboration.*
+	When you commit a file in Git, it's useful to include a descriptive message of the changes you've made, e.g. 'Updated intro text'. This will be visible to other users of the repository and help collaboration.
 
 9. You've now saved the files on your computer by committing them, which saves a unique log point in their progress. (If you're familiar with using the Revision History function of Google Docs, you can think of this save point as being able to *choose* when specific versions of the file is logged and thus able to be restored.) 
 
@@ -76,6 +76,8 @@ At certain steps in the process, this guide assumes a basic familarity with Gith
 
 #### Future scope
 
-*  Explain remote respositories (origin, target)
+*  Techniques for merging and reverting
 *  Explain branches
+*  Collaboration best practices
+*  Explain remote respositories (origin, target)
 *  Techniques for merging and reverting
