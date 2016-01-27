@@ -8,7 +8,7 @@ At certain steps in the process, this guide assumes a basic familarity with Gith
 
 1. Install Github software on your computer. Tutorial [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-##### This guide uses this repository as a workspace for editing. Alternatively, if you already have a project repository (which is like the equivalent of a folder on your ownCloud or Google Drive), begin here. If not, please continue on to the next header section.
+##### This guide uses this repository as a workspace for editing. Alternatively, if you want to create your own project repository (which is like the equivalent of a folder on your ownCloud or Google Drive), begin here. If not, please continue on to the next header section.
 
 1. Log into Github.com and click on the + icon in the upper right corner to create a new repository.
 
